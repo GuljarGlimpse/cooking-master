@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cooking Master</title>
+</head>
+<body id="top">
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <h1 class="site-title"><a href="/cooking-master">Cooking master</a></h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="/cooking-master">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div id="search-box">
+            <div class="seach-box-container">
+            <input type="text" id="inputMeal" placeholder="Search for meal...">
+            <button class="submitBtn" onclick="submitHandler()" type="submit">Search</button>
+        </div>
+            <div id="empty-notification"></div>
+        </div>
+        <div id="search-error">
+            
+        </div>
+        <div id="mealDetails"></div>
+        <div id="meals"></div>
+    </div>   
+ <script src="script.js"></script>  
+</body>
+</html>
